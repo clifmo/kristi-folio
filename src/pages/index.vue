@@ -9,7 +9,7 @@ const go = () => {
 </script>
 
 <template>
-  <div>
+  <div class="bg-base">
     <div i-carbon-campsite text-4xl inline-block />
     <h1>
       <a rel="noreferrer" href="#" target="_blank" font-sans="lato">
@@ -53,4 +53,5 @@ const go = () => {
       </button>
     </div>
   </div>
+  <Project />
 </template>

@@ -255,7 +255,7 @@ import { isDark, toggleDark } from '~/composables'
 
     <div class="text-center text-gray-600 dark:text-white p-4 bg-gray-200 dark:bg-black">
       © {{ new Date().getFullYear() }} Copyright:
-      <a class="text-black dark:text-white" href="https://www.linkedin.com/in/kristinpaige/">Kristin P.S Molina</a>
+      <a transition duration="100" class="text-black dark:text-white" href="https://www.linkedin.com/in/kristinpaige/">Kristin P.S Molina</a>
     </div>
   </footer>
   <nav text-xl mt-6 inline-flex gap-2>
