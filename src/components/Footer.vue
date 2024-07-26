@@ -3,7 +3,7 @@ import { isDark, toggleDark } from '~/composables'
 </script>
 
 <template>
-  <footer class="bg-gray-100 dark:bg-gray-700">
+  <footer class="bg-white dark:bg-black">
     <div class="px-6 pt-6">
       <div class="flex justify-center mb-6 mx-auto">
         <a href="#!" type="button" class="social-button">
@@ -136,9 +136,10 @@ import { isDark, toggleDark } from '~/composables'
                 py-1.5
                 text-base
                 font-normal
-                text-gray-700
+                text-black
                 bg-white bg-clip-padding
-                border border-solid border-gray-300
+                dark:border-white
+                border border-solid border-black
                 rounded
                 transition
                 ease-in-out
@@ -253,7 +254,7 @@ import { isDark, toggleDark } from '~/composables'
       </div>
     </div>
 
-    <div class="text-center text-gray-600 dark:text-white p-4 bg-gray-200 dark:bg-black">
+    <div class="text-center text-black dark:text-white p-4 bg-white dark:bg-black">
       © {{ new Date().getFullYear() }} Copyright:
       <a transition duration="100" class="text-black dark:text-white" href="https://www.linkedin.com/in/kristinpaige/">Kristin P.S Molina</a>
     </div>

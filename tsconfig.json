@@ -24,8 +24,7 @@
       "~/*": [
         "src/*"
       ]
-    },
-    "allowJs": true
+    }
   },
   "exclude": [
     "dist",

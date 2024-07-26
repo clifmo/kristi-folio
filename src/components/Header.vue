@@ -7,14 +7,14 @@ const openNav = () => {
 </script>
 
 <template>
-  <header h="24" w="full" flex justify-between items="center" px="4" class="dark:bg-gray-900 text-gray-700 dark:text-gray-100">
+  <header h="24" w="full" flex justify-between items="center" px="4" class="dark:bg-black text-black dark:text-white">
     <a href="#">Logo</a>
 
     <nav>
       <button class="md:hidden" @click="openNav">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="h-8 w-8 text-white"
+          class="h-8 w-8 text-black dark:text-white"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -32,7 +32,7 @@ const openNav = () => {
                   px-4
                   pt-8
                   space-y-4
-                  text-gray-900
+                  text-black
                   dark:text-white
                   transform
                   transition
