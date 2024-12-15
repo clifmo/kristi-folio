@@ -9,7 +9,7 @@ const go = () => {
 </script>
 
 <template>
-  <div>
+  <div class="bg-base">
     <div i-carbon-campsite text-4xl inline-block />
     <h1>
       <a rel="noreferrer" href="#" target="_blank" font-sans="lato">
@@ -22,7 +22,9 @@ const go = () => {
 
     <div py-4 />
 
-    <div w-65 m-auto><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+    <div w-65 m-auto>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
 
     <div py-4 />
 
@@ -51,4 +53,5 @@ const go = () => {
       </button>
     </div>
   </div>
+  <Project />
 </template>

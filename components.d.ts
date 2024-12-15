@@ -4,7 +4,10 @@
 
 declare module 'vue' {
   export interface GlobalComponents {
+    ContactForm: typeof import('./src/components/ContactForm.vue')['default']
     Footer: typeof import('./src/components/Footer.vue')['default']
+    Header: typeof import('./src/components/Header.vue')['default']
+    Project: typeof import('./src/components/Project.vue')['default']
   }
 }
 
